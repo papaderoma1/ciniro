@@ -1,0 +1,96 @@
+body {
+  background-image: url(images/backgdona.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+ 
+}
+
+b {
+    color:#ffaf53;
+    font-size: 1.5em;
+}
+
+q {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+.textdon {
+    color: white;
+    font-family: Poppins;
+    float: left;
+    height: 50%;
+    width: 20%;
+    text-align: center;
+    margin-left: 6%;
+}
+
+
+
+.infodon {
+    color: white;
+    font-family: Poppins;
+    float: right;
+    height: 50%;
+    width: 27%;
+    text-align: center;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+@media (max-width: 767px)
+{
+    .formob {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+    h1{
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 0.75em;
+    }
+
+    h3{
+        font-size: 0.58em;
+    }
+    b {
+        font-size: 1em;
+    }
+    address {
+        font-size: 0.58em;
+    }
+    
+    .textdon {
+        float: none;
+        width: 50%;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    .infodon {
+        float: none;
+        width: 50%;
+        margin: auto;
+    }
+}
